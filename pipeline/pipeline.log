@@ -1,0 +1,16 @@
+INFO:root:Sentiment-analysis
+INFO:root:[{'label': 'POSITIVE', 'score': 0.9598049521446228}, {'label': 'NEGATIVE', 'score': 0.9994558691978455}]
+INFO:root:Zero-shot Classification
+INFO:root:{'sequence': 'This is a course about the Transformers library', 'labels': ['education', 'business', 'politics'], 'scores': [0.8445988297462463, 0.11197440326213837, 0.04342682659626007]}
+INFO:root:Text Generation
+INFO:root:[{'generated_text': 'In this course, we will teach you how to do this:\n\n\n\nI have prepared this class to use the language of the class.'}, {'generated_text': 'In this course, we will teach you how to master an image creation process and understand how you can start learning images by having the method used on your'}]
+INFO:root:Mask Filling
+INFO:root:[{'score': 0.19619810581207275, 'token': 30412, 'token_str': ' mathematical', 'sequence': 'This course will teach you all about mathematical models.'}, {'score': 0.04052736610174179, 'token': 38163, 'token_str': ' computational', 'sequence': 'This course will teach you all about computational models.'}]
+INFO:root:Named Entity Recognition
+INFO:root:[{'entity_group': 'PER', 'score': 0.9981694, 'word': 'Sylvain', 'start': 11, 'end': 18}, {'entity_group': 'ORG', 'score': 0.9796019, 'word': 'Hugging Face', 'start': 33, 'end': 45}, {'entity_group': 'LOC', 'score': 0.9932106, 'word': 'Brooklyn', 'start': 49, 'end': 57}]
+INFO:root:Question Answering
+INFO:root:{'score': 0.6949766278266907, 'start': 33, 'end': 45, 'answer': 'Hugging Face'}
+INFO:root:Summarization
+INFO:root:[{'summary_text': ' America has changed dramatically during recent years . The number of engineering graduates in the U.S. has declined in traditional engineering disciplines such as mechanical, civil,    electrical, chemical, and aeronautical engineering . Rapidly developing economies such as China and India continue to encourage and advance the teaching of engineering .'}]
+INFO:root:Translation
+INFO:root:[{'translation_text': 'This course is produced by Hugging Face'}]

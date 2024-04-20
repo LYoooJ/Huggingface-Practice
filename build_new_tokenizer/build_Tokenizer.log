@@ -1,0 +1,15 @@
+[INFO] load_dataset: wikitext-2-raw-v1
+[INFO] Create WordPiece Tokenizer
+[INFO] encode(("Let's test this tokenizer...", 'on a pair of sentences.'))
+[INFO] encode result: ['[CLS]', 'let', "'", 's', 'test', 'this', 'tok', '##en', '##izer', '...', '[SEP]', 'on', 'a', 'pair', 'of', 'sentences', '.', '[SEP]']
+[INFO] decode result: let ' s test this tokenizer... on a pair of sentences.
+[INFO] Save Wordpiece Tokenizer: wordpiece_tokenizer.json
+[INFO] Create BPE Tokenizer
+[INFO] encode(("Let's test this tokenizer...", 'on a pair of sentences.'))
+[INFO] encode result: ['L', 'et', "'", 's', 'Ġtest', 'Ġthis', 'Ġto', 'ken', 'izer', '..', '.', 'on', 'Ġa', 'Ġpair', 'Ġof', 'Ġsentences', '.']
+[INFO] decode result: Let's test this tokenizer...on a pair of sentences.
+[INFO] Save BPE Tokenizer: bpe_tokenizer.json
+[INFO] encode(("Let's test this tokenizer...", 'on a pair of sentences.'))
+[INFO] encode result: ['▁Let', "'", 's', '▁test', '▁this', '▁to', 'ken', 'izer', '.', '.', '.', '<sep>', '▁', 'on', '▁', 'a', '▁pair', '▁of', '▁sentence', 's', '.', '<sep>', '<cls>']
+[INFO] decode result: Let's test this tokenizer... on a pair of sentences.
+[INFO] Save Unigram Tokenizer: unigram_tokenizer.json

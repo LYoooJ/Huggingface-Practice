@@ -1,0 +1,14 @@
+INFO:root:checkpoint for sentiment-analysis: distilbert-base-uncased-finetuned-sst-2-english
+INFO:root:Preprocessing Using Tokenizer
+INFO:root:inputs: {'input_ids': tensor([[  101,  1045,  1005,  2310,  2042,  3403,  2005,  1037, 17662, 12172,
+          2607,  2026,  2878,  2166,  1012,   102],
+        [  101,  1045,  5223,  2023,  2061,  2172,   999,   102,     0,     0,
+             0,     0,     0,     0,     0,     0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]])}
+INFO:root:Passing the inputs throught the model
+INFO:root:logits: tensor([[-1.5607,  1.6123],
+        [ 4.1692, -3.3464]], grad_fn=<AddmmBackward0>)
+INFO:root:Postprocessing
+INFO:root:probability: tensor([[4.0195e-02, 9.5980e-01],
+        [9.9946e-01, 5.4418e-04]], grad_fn=<SoftmaxBackward0>)
+INFO:root:prediction label: {0: 'NEGATIVE', 1: 'POSITIVE'}
